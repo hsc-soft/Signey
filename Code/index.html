@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sonant Avatar</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <div class="row video-group" style="margin-left: 0px!important;">
+        <div class="w-100"></div>
+        <div class="col">
+            <div id="remote-playerlist"></div>
+        </div>
+    </div>
+    <div class="row video-group" style="margin-left: 0px!important;">
+        <div class="row" style="margin-left: 0px!important;">
+            <div class="col-sm">
+                <p class="tips">Enter Sectance</p>
+                <input id="txtSentance" type="text" placeholder="Enter Sectance" required>
+                <button type="button" onclick="sendSentance();" class="btn btn-primary btn-sm">Play</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/AgoraRTC_N-4.14.2.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
